@@ -1,0 +1,38 @@
+<html lang="en">
+	<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+	</head>
+	<title>bird calls</title>
+	<body style="background-image: url('bg.jpg');">
+		birds :>
+		</br>
+		click any bird to hear it call
+		</br>
+		<button onclick="playAudio('BIRBS')">click to play a song</button>
+		<audio id="BIRBS"><source src="BIRBS.mp3" type="audio/mpeg"></audio>
+		</br></br>
+		<img id="ioriental_pratincole" src="oriental_pratincole.jpg" alt="Oriental Pratincole (grasshopper bird)" title="Oriental Pratincole (grasshopper bird)" width="150" height="150" onclick="playAudio('oriental_pratincole')"><audio id="oriental_pratincole"><source src="oriental_pratincole.mp3" type="audio/mpeg"></audio>
+		<img id="iasian_koel" src="asian_koel.jpg" alt="Asian Koel" title="Asian Koel" width="150" height="150" onclick="playAudio('asian_koel')"><audio id="asian_koel"><source src="asian_koel.mp3" type="audio/mpeg"></audio>
+		<img id="ired_throated_barbet" src="red_throated_barbet.jpg" alt="Red Throated Barbet" title="Red Throated Barbet" width="150" height="150" onclick="playAudio('red_throated_barbet')"><audio id="red_throated_barbet"><source src="red_throated_barbet.mp3" type="audio/mpeg"></audio>
+		<img id="igrey_heron" src="grey_heron.jpg" alt="Grey Heron" title="Grey Heron" width="150" height="150" onclick="playAudio('grey_heron')"><audio id="grey_heron"><source src="grey_heron.mp3" type="audio/mpeg"></audio>
+		<img id="igreater_coucal" src="greater_coucal.jpg" alt="Greater Coucal (crow pheasant)" title="Greater Coucal (crow pheasant)" width="150" height="150" onclick="playAudio('greater_coucal')"><audio id="greater_coucal"><source src="greater_coucal.mp3" type="audio/mpeg"></audio>
+		<img id="isavannah_nightjar" src="savannah_nightjar.jpg" alt="Savanna Nightjar" title="Savanna Nightjar" width="150" height="150" onclick="playAudio('savannah_nightjar')"><audio id="savannah_nightjar"><source src="savannah_nightjar.mp3" type="audio/mpeg"></audio>
+		</br>
+		<img id="iwhiskered_treeswift" src="whiskered_treeswift.jpg" alt="Whiskered Treeswift" title="Whiskered Treeswift" width="150" height="150" onclick="playAudio('whiskered_treeswift')"><audio id="whiskered_treeswift"><source src="whiskered_treeswift.mp3" type="audio/mpeg"></audio>
+		<img id="ibanded_woodpecker" src="banded_woodpecker.jpg" alt="Banded Woodpecker (or Yellownape)" title="Banded Woodpecker (or Yellownape)" width="150" height="150" onclick="playAudio('banded_woodpecker')"><audio id="banded_woodpecker"><source src="banded_woodpecker.mp3" type="audio/mpeg"></audio>
+		<img id="imangrove_pitta" src="mangrove_pitta.jpg" alt="Mangrove Pitta" title="Mangrove Pitta" width="150" height="150" onclick="playAudio('mangrove_pitta')"><audio id="mangrove_pitta"><source src="mangrove_pitta.mp3" type="audio/mpeg"></audio>
+		<img id="icommon_iora" src="common_iora.jpg" alt="Common Iora" title="Common Iora" width="150" height="150" onclick="playAudio('common_iora')"><audio id="common_iora"><source src="common_iora.mp3" type="audio/mpeg"></audio>
+		<img id="ibrown_throated_sunbird" src="brown_throated_sunbird.jpg" alt="Brown Throated Sunbird" title="Brown Throated Sunbird" width="150" height="150" onclick="playAudio('brown_throated_sunbird')"><audio id="brown_throated_sunbird"><source src="brown_throated_sunbird.mp3" type="audio/mpeg"></audio>
+		<img id="imalayan_partridge" src="malayan_partridge.jpg" alt="Malayan Partridge" title="Malayan Partridge" width="150" height="150" onclick="playAudio('malayan_partridge')"><audio id="malayan_partridge"><source src="malayan_partridge.mp3" type="audio/mpeg"></audio>
+		</br>
+		to the birbman himself <3
+	</body>
+	<script type="text/javascript">
+		function playAudio(id) {
+			audio = document.getElementById(id)
+			audio.play()
+		}
+	</script>
+</html>
